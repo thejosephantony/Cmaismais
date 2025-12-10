@@ -1,0 +1,28 @@
+{ 
+    "version": "2.0.0", 
+    "tasks": [ 
+        { 
+            "label": "Compilar Calculadora", 
+            "type": "shell", 
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe", 
+            "args": [ 
+                "-g", 
+                "src/main.cpp", 
+                "-o", 
+                "bin/calculadora.exe", 
+                "-I", "C:/SFML-3.0.2/include", 
+                "-L", "C:/SFML-3.0.2/lib", 
+                "-lsfml-graphics", 
+                "-lsfml-window", 
+                "-lsfml-system", 
+                "-lsfml-audio", 
+                "-mwindows", 
+                "-DSFML_STATIC" 
+            ], 
+            "group": { 
+                "kind": "build", 
+                "isDefault": true 
+            } 
+        } 
+    ] 
+} 
