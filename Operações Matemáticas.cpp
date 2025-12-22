@@ -13,6 +13,8 @@ using std::cin;
 using std::endl;
 using std::setprecision;
 using std::fixed;
+using std::pow;
+
 
 
 int main(){
@@ -24,12 +26,14 @@ int main(){
 
     do{
         cout << "---------MENU-----------" << endl;
-        cout << "Escolha uma das opções (1-5)" << endl;
+        cout << "Escolha uma das opções (0-6)" << endl;
         cout << "1- Adição" << endl;
         cout << "2- Subtração" << endl;
         cout << "3- Multiplicação" << endl;
         cout << "4- Divisão" << endl;
-        cout << "5- Sair" << endl;
+        cout << "5- Potenciação" << endl;
+        cout << "6- Radiciação" << endl;
+        cout << "0- Sair" << endl;
         cout << fixed << setprecision(2);
 
         cin >> opcao;
@@ -74,6 +78,30 @@ int main(){
                 break;
                 }
             case 5:
+                cout << "Insira a base: ";
+                cin >> a;
+                cout << "Insira o expoente: ";
+                cin >> b;
+                resultado = pow(a,b);
+                cout << "Resultado = " << resultado << endl;
+                break;
+            case 6:
+                cout << "Insira o radicando: ";
+                cin >> a;
+                cout << "Insira o índice: ";
+                cin >> b;
+                if(b == 0){
+                    cout << "O índice não pode ser zero." << endl;
+                }
+                else if (a < 0 && fmod(b, 2) == 0) {
+                    cout << "ERRO: Radicando negativo com índice par!" << endl;
+                }
+                else{
+                resultado = pow(a, 1.0/b);
+                cout << "Resultado = " << resultado << endl;
+                }
+                break;
+            case 0:
                 cout << "Até mais." << endl;
                 break;
             default:
@@ -81,7 +109,7 @@ int main(){
         }
 
     }
-    while(opcao!=5);
+    while(opcao!=0);
 
     return 0;
 
