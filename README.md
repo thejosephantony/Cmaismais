@@ -1,50 +1,43 @@
-# Cmaismais
+# Cmaismais 🚀
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-Repositório dedicado ao estudo e desenvolvimento de programas em **C++**, reunindo exercícios, práticas acadêmicas e implementações voltadas ao aprendizado da linguagem.
-
-## 📌 Sobre o Projeto
-
-O objetivo deste repositório é servir como ambiente de prática para conceitos fundamentais e intermediários de **C++**, explorando desde lógica matemática até recursos mais avançados da linguagem.
-
-Durante os estudos e desenvolvimento dos códigos, foram utilizadas como base referências reconhecidas na área, incluindo obras clássicas da programação em C e C++, além de materiais didáticos modernos.
-
-## 📚 Referências Utilizadas
-
-Entre os materiais que serviram de apoio para os estudos, destacam-se:
-
-- **C++ How to Program** — Harvey Deitel & Paul Deitel  
-- **Absolute C++** — Walter Savitch  
-- **The C++ Programming Language** — Bjarne Stroustrup  
-- **Programming: Principles and Practice Using C++** — Bjarne Stroustrup  
-- **Data Structures and Algorithm Analysis in C++** — Mark Allen Weiss  
-- **Thinking in C++** — Bruce Eckel  
-- **Use a Cabeça! C** — David Griffiths & Dawn Griffiths  
-- **Linguagem C Completa e Descomplicada** — Prof. André Backes  
-- **Algoritmos e Estruturas de Dados em C/C++** — materiais complementares diversos
+Repositório dedicado ao estudo, desenvolvimento e implementação de algoritmos e conceitos fundamentais utilizando as linguagens C e C++.
 
 ## 📌 Conteúdos Presentes
 
-- Estruturas condicionais e de repetição  
-- Funções e modularização  
-- Vetores e matrizes  
-- Ponteiros e alocação dinâmica  
-- Structs e classes  
-- Programação orientada a objetos  
-- Manipulação de arquivos  
-- Algoritmos e resolução de problemas  
-- Exercícios acadêmicos e práticas diversas  
+Os códigos implementados abrangem os seguintes tópicos:
 
-## 🛠️ Tecnologias Utilizadas
+* **Lógica e Estruturas de Controle:** Estruturas condicionais e de repetição.
+* **Modularização:** Funções e escopo de variáveis.
+* **Estruturas de Dados:** Vetores, matrizes e tipos estruturados (structs).
+* **Gestão de Memória:** Ponteiros e alocação dinâmica.
+* **Programação Orientada a Objetos:** Classes e pilares da POO.
+* **Persistência:** Manipulação de arquivos de entrada e saída.
+* **Resolução de Problemas:** Algoritmos diversos e exercícios de prática acadêmica.
 
-- **C++**
-- Compiladores compatíveis:
-  - GCC / G++
-  - MinGW
-  - Clang
+## 📚 Referências Utilizadas
 
-## ▶️ Como Executar
+A base teórica e os materiais de apoio para o desenvolvimento deste repositório incluem:
 
-1. Clone o repositório:
+* **C++ How to Program** — Harvey Deitel & Paul Deitel
+* **Absolute C++** — Walter Savitch
+* **The C++ Programming Language** — Bjarne Stroustrup
+* **Programming: Principles and Practice Using C++** — Bjarne Stroustrup
+* **Data Structures and Algorithm Analysis in C++** — Mark Allen Weiss
+* **Thinking in C++** — Bruce Eckel
+* **Use a Cabeça! C** — David Griffiths & Dawn Griffiths
+* **Linguagem C Completa e Descomplicada** — André Backes
+* **Materiais complementares:** Algoritmos e Estruturas de Dados em C/C++.
 
-```bash
-git clone https://github.com/thejosephantony/Cmaismais.git
+## 🛠️ Tecnologias e Ferramentas
+
+* **Linguagem:** C++ (Padrão C++11 ou superior)
+* **Compilador Sugerido:** GCC/G++ ou Clang
+* **Ambiente de Desenvolvimento:** VS Code, Code::Blocks, CLion ou Terminal
+
+## 🚀 Como Executar
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/thejosephantony/Cmaismais.git](https://github.com/thejosephantony/Cmaismais.git)
